@@ -91,7 +91,7 @@ body{
     }
     .notify-me{
         width:100%;
-        max-width:671px;
+        max-width:400px;
         position: relative;
     }
     .notify-me .email-input{
@@ -154,6 +154,9 @@ body{
   }
   
   @media (min-width: 992px) {
+    .notify-me{
+        max-width:671px;
+    }
     .banner-section .left-part p {
         font-size: 24px;
         padding-top: 107px;
